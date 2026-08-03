@@ -1,0 +1,40 @@
+# Secrets and local credentials — never publish
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+credentials/
+secrets/
+service_account*.json
+.anthropic*
+
+# Python and Jupyter temporary files
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Raw, private, and large intermediate data
+# Keep these archived separately; publish small final summaries instead.
+data/raw/
+data/intermediate/
+data/checkpoints/
+data/embeddings/
+data/private/
+*_checkpoint.csv
+*_checkpoint.json
+*.npy
+*.npz
+
+# Local logs and downloaded archives
+*.log
+*.zip
+*.gz
+
