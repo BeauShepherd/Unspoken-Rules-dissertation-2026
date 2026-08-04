@@ -6,7 +6,7 @@ This folder will contain the cleaned, numbered notebooks that implement the diss
 
 | Notebook | Purpose |
 |---|---|
-|  | Source loading, cleaning, exploratory topic screening, exclusions, and stratified splits. |
+| [01_HH_Download_Data.ipynb](hh-rlhf-pipeline/01_HH_Download_Data.ipynb) | Source loading, cleaning, exploratory topic screening, exclusions, and stratified splits. |
 | | Extract implicit rules from CMV comments. |
 | | Decontextualise CMV rules. |
 | | Extract implicit rules from HH-RLHF preference pairs. |
