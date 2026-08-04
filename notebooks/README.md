@@ -2,19 +2,31 @@
 
 This folder will contain the cleaned, numbered notebooks that implement the dissertation pipeline. Notebooks will be uploaded only after API keys, private paths, and unnecessary exploratory cells have been removed.
 
-## Planned order
+## HH-RLHF Pipline
 
 | Notebook | Purpose |
 |---|---|
-| `01_data_screening_and_exclusions.ipynb` | Source loading, cleaning, exploratory topic screening, exclusions, and stratified splits. |
-| `02_cmv_rule_extraction.ipynb` | Extract implicit rules from CMV comments. |
-| `03_cmv_decontextualisation.ipynb` | Decontextualise CMV rules. |
-| `04_hh_rlhf_rule_extraction.ipynb` | Extract implicit rules from HH-RLHF preference pairs. |
-| `05_hh_rlhf_decontextualisation.ipynb` | Decontextualise HH-RLHF rules. |
-| `06_joint_topic_modelling.ipynb` | Build the primary 235,919-rule joint BERTopic models. |
-| `07_topic_validation.ipynb` | Compute topic tightness and permutation-validation outputs. |
-| `08_manual_validation.ipynb` | Generate, blind, and analyse the manual validation sample. |
-| `09_results_and_figures.ipynb` | Produce final tables and figures from the frozen primary analysis. |
+|  | Source loading, cleaning, exploratory topic screening, exclusions, and stratified splits. |
+| | Extract implicit rules from CMV comments. |
+| | Decontextualise CMV rules. |
+| | Extract implicit rules from HH-RLHF preference pairs. |
+| | Decontextualise HH-RLHF rules. |
+| | Build the primary 235,919-rule joint BERTopic models. |
+| | Compute topic tightness and permutation-validation outputs. |
+| | Generate, blind, and analyse the manual validation sample. |
+| | Produce final tables and figures from the frozen primary analysis. |
+
+## CMV Pipline
+
+| Notebook | Purpose |
+|---|---|
+|  |  |
+
+## Cross-Comparison Pipeline
+
+| Notebook | Purpose |
+|---|---|
+|  |  |
 
 ## Notebook standards
 
