@@ -8,14 +8,14 @@ The study uses a large-language-model pipeline to extract generalisable, implici
 
 ## Research questions
 
-1. **Extraction validity** — To what extent can an LLM-based pipeline extract valid, generalisable implicit norms from dialogue text?
-2. **Normative structure** — What thematic structure characterises the extracted norms?
-3. **Cross-corpus comparison** — How do the distributions of normative themes differ between naturalistic human debate and AI-alignment preference data?
+1. **Extraction validity**: To what extent can an LLM-based pipeline extract valid, generalisable implicit norms from dialogue text?
+2. **Normative structure**: What thematic structure characterises the extracted norms?
+3. **Cross-corpus comparison**: How do the distributions of normative themes differ between naturalistic human debate and AI-alignment preference data?
 
 ## Data sources
 
-- **CMV** — Reddit's r/ChangeMyView corpus, used here as a naturalistic human-debate corpus.
-- **HH-RLHF** — Anthropic's Helpful and Harmless preference dataset, restricted to helpful preference data, used here as an AI-alignment preference corpus.
+- **CMV**: Reddit's r/ChangeMyView corpus, used here as a naturalistic human-debate corpus.
+- **HH-RLHF**: Anthropic's Helpful and Harmless preference dataset, restricted to helpful preference data, used here as an AI-alignment preference corpus.
 
 ## Pipeline at a glance
 
@@ -23,7 +23,7 @@ The study uses a large-language-model pipeline to extract generalisable, implici
 2. Use Claude Haiku to extract generalisable implicit normative propositions.
 3. Decontextualise extracted propositions so that they can be compared across domains.
 4. Fit joint BERTopic models to the pooled rule corpus.
-5. Validate topic quality using embedding-based tightness and size-matched permutation tests.
+5. Validate topic quality using embedding-based tightness and size matched permutation tests.
 6. Compare the thematic distributions of CMV and HH-RLHF rules.
 7. Conduct a blinded manual audit of extraction and decontextualisation validity.
 
